@@ -1,0 +1,3 @@
+rx_group_num:11
+rx1_freq:475300000
+rx2_freq:476100000
