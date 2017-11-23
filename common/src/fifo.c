@@ -143,7 +143,7 @@ Maintainer: Miguel Luis and Gregory Cristian
 			FifoPush( fifo, *(tmp+i) );
 
 		}
-
+		fifo->len++;
 	}
 
 	
@@ -169,7 +169,7 @@ Maintainer: Miguel Luis and Gregory Cristian
 		    *(tmp+i) = FifoPop(fifo);
 
 		}
-
+		fifo->len--;
 		
 
 	}
